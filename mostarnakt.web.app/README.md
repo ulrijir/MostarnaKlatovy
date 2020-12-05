@@ -1,0 +1,1 @@
+Toole setup for Firebase hosting: https://firebase.google.com/docs/cli#windows-npm
