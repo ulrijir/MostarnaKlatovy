@@ -1,4 +1,4 @@
 <?php
-	header("Location: index.html", true, 301);
+	header("Location: https://mostarnakt.web.app/", true, 301);
 	exit();
 ?>
