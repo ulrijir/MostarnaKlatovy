@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: http://mostarnakt.sweb.cz/sitemap.xml
