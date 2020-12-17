@@ -3,20 +3,41 @@
 	<head>
 		<script type = "text/javascript">
 			<!--
-			function Redirect() {
-				window.location = "https://mostarnakt.web.app";
-				//location.replace("https://mostarnakt.web.app")
-			}            
-			Redirect();
+			
+			const NEW_URL = "https://mostarnakt.web.app/";
+			const OLD_URL = "http://mostarnakt.sweb.cz/www/";
+			
+			function RedirectTo(url) {
+				window.location = url;
+			}
+			
+			RedirectTo(NEW_URL);
+			
 			//-->
 		</script>
 	</head>
 	<body>
 
-	<h2>Přesměrování na stránky Moštárny Klatovy</h2>
-	<p>
-	<a href="https://mostarnakt.web.app">https://mostarnakt.web.app</a>
-	</p>
-	<button onclick="Redirect()">Přesměrovat</button>
+	<h1>Přesměrování na stránky Moštárny Klatovy</h1>
+	<button onclick="RedirectToNew()">Přesměrovat na webové stránky Moštárny Klatovy</button>
+	<p>Pokud přesměrovnání nefunguje, klikněte na následující odkaz: <a href="https://mostarnakt.web.app">https://mostarnakt.web.app</a>.</p>
+
+	<br>
+	<hr size="1"/>
+	<br>
+
+	<small>
+		<p>Pokud výše uvedené stránky nefungují, můžete zkusit přejít na zjednodušenou verzi stránek Moštárny Klatovy:</p>
+		<button onclick="RedirectToOld()">Přesměrovat na zjednodušené webové stránky Moštárny Klatovy</button>
+		<p>Pokud přesměrovnání nefunguje, klikněte na následující odkaz: <a href="http://mostarnakt.sweb.cz/www/">http://mostarnakt.sweb.cz/www/</a>.</p>
+	</small>
+	
+	<br>
+	<hr size=1><br>
+	<center>
+		<small>
+			&copy; 2020 Moštárna Klatovy, <a href="mailto:mostarnakt@seznam.cz">mostarnakt@seznam.cz</a>, <a target="_blank" href="https://mostarnakt.web.app">https://mostarnakt.web.app</a>, <a target="_blank" href="https://www.facebook.com/mostarnakt">https://www.facebook.com/mostarnakt</a>
+		</small>
+	</center>
 	</body>
 </html>
